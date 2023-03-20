@@ -11,7 +11,7 @@
     <body>
         <?php 
             date_default_timezone_set("Europe/Amsterdam");
-            $date = date("H:m");
+            $date = date("H:i");
             if ($date >= date("06:01") && $date <= date ("12:00")){
                 $background = "images/morning.png";
                 $greeting = "Good morning"; 
